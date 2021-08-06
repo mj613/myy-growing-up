@@ -1,0 +1,6 @@
+hello word 1
+for instance 2
+the line 3
+this is line 4
+but this is line 5
+let us input some of the letters
