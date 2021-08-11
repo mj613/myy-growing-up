@@ -1,28 +1,23 @@
 # 这是一级标题
 ## 这是二级标题
 ### 这是三级标题
-#### 这是四级标题
-##### 这是五级标题
-###### 这是六级标题
 
 **加粗了**
-没加粗
 
 *倾斜了*
 
+***斜体加粗***
+
 ~~删除了~~
 
-***这是斜体加粗的文字***
-
 >这是引用的内容
->>这是引用的内容
->>>>>>>>>>这是引用的内容
-
-分割线
 ---
-----
+>>这是2次引用的内容
 ***
-*****
+>>>这是3次引用的内容
+
+***
+图片
 
 ![图片alt](https://17english.com/static/img/home1.e8b9340b.png "课堂宝")
 
@@ -45,7 +40,7 @@
         二级无序列表内容
 
         表头|表头|表头
-        ---|:--:|---:
+        |---|:--:|---:
         内容|内容|内容
         内容|内容|内容
 
@@ -57,7 +52,7 @@
         注：原生的语法两边都要用 | 包起来。此处省略
 
         姓名|技能|排行
-        --|:--:|--:
+        |--|:--:|--:
         刘备|哭|大哥
         关羽|打|二哥
         张飞|骂|三弟      
@@ -68,8 +63,14 @@
 //代码块
 public ResponseData<int> Close()
 +        {
-+            ResponseData<int> result = new ResponseData<int>();
++           ResponseData<int> result = new ResponseData<int>();
 +            result.Code = 0;
 +            currentMainWindow.Close();
 +            return result;
 +        }
+
+| Tables| Are | Cool |
+| ------------- |:-------------:| -----------------:|
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered| $12 |
+| zebra stripes | are neat very long long |$1111111111111111 |
